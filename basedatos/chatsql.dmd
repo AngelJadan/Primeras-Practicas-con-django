@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="chatsql" id="8FAC28C0-5C21-915B-4096-855E1A8B0C1E" version="3.5">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 18:41:09 UTC</createdTime>
+<ownerDesignName>chatsql</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8FAC28C0-5C21-915B-4096-855E1A8B0C1E</designId>
+</OSDM_Design>

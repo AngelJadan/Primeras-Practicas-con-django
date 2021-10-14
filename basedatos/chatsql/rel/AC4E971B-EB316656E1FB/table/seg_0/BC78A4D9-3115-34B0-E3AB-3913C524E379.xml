@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC78A4D9-3115-34B0-E3AB-3913C524E379" name="USUARIOS">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>9BA98562-40EE-569A-FCC2-A336767A094A</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usu_id" id="1303129F-594E-C77B-A957-D43AF7D89670">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>08DA112D-F341-A171-1836-B3023F9A36EA</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,0,12</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_nombre" id="72990249-1117-2116-BBFF-BB4EDA4AFF7C">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>BECC8F2E-E1B3-47FC-46CC-4FC7E8E62941</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_apellido" id="A889DB2B-AF78-CC6D-7594-93A594EDF4C0">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>7AF2754A-DF9B-DB93-5A12-BD0AD7BDFC46</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_usuario" id="3202F9D1-B3CB-333D-075B-6124B9D2A188">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>0617F532-8D60-6404-78BF-3B5E67CD1044</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_pass" id="98E34604-8814-756D-EF62-8BDA266781A1">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>9BEEA72B-38B4-E617-B279-12548E389DA1</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_correo" id="92077DD0-893E-950F-07D0-D05AA1DFE310">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>1842B76A-5031-46A0-434E-78A33001EAF0</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5715BEB-E744-B45A-53DD-F3F574567736" name="USUARIOS_PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>359B3F65-60AE-EFD3-B34E-D5ECDDE12B26</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1303129F-594E-C77B-A957-D43AF7D89670"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

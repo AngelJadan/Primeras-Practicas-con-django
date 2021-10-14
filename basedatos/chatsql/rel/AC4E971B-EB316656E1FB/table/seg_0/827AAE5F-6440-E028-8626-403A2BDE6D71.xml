@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="827AAE5F-6440-E028-8626-403A2BDE6D71" name="SALAS">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>42FDD3BA-C8D9-32D6-8ECD-9CE3D8C22850</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sal_id" id="697B7D0A-2B92-0926-7DCD-47AB253DE8D8">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>4BDEC247-C276-BF4E-F6C5-AC0C44EF9946</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,0,12</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALAS_sal_id" id="97E9ECBA-7661-72B2-C501-1B796794EC71">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>270DE24A-70BC-1F2F-B028-25D3EDFBCA04</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,0,12</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3501DE3-4D27-7BBE-AED4-92FE258D8314" referredColumn="697B7D0A-2B92-0926-7DCD-47AB253DE8D8"/>
+</associations>
+</Column>
+<Column name="sal_codigo" id="36071573-989C-34B4-77B8-C357FB66171E">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-30 01:13:29 UTC</createdTime>
+<generatorID>6E66894A-DDFB-D0DD-E97C-6B13208CF18F</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8895025-016E-D241-27DF-B2693AB121E3" name="SALAS_PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>BCB8EDC8-47AD-70FE-1DA7-216E01E425AC</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="697B7D0A-2B92-0926-7DCD-47AB253DE8D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DD633E8-B085-E51D-7E96-62DD0CD83E6B" name="SALAS_SALAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>B3D698F8-9A41-65C1-7E38-3DDB1E9E6135</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97E9ECBA-7661-72B2-C501-1B796794EC71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

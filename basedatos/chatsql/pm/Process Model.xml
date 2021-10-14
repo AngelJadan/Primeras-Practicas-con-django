@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6CCFC09A-4C22-5370-A807-ABF3B767BF03">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 18:41:10 UTC</createdTime>
+<ownerDesignName>chatsql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

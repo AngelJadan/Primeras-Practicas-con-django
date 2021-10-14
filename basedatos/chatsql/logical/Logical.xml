@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4C93AEDB-A278-E53D-8C34-BACE73429DE1" mainViewID="4EB72BD4-6E10-610E-1249-44CA75F22CFC">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 18:41:09 UTC</createdTime>
+<ownerDesignName>chatsql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

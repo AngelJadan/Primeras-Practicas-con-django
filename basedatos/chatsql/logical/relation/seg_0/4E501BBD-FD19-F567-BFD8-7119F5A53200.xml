@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="4E501BBD-FD19-F567-BFD8-7119F5A53200">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 18:46:15 UTC</createdTime>
+<ownerDesignName>chatsql</ownerDesignName>
+<engineerTo>
+<item key="AC4E971B-B305-7CC6-0DD4-EB316656E1FB" value="true"/>
+</engineerTo>
+<sourcePk>BCB8EDC8-47AD-70FE-1DA7-216E01E425AC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>42FDD3BA-C8D9-32D6-8ECD-9CE3D8C22850</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F185B63E-578D-714D-8556-BB8B332E6E0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

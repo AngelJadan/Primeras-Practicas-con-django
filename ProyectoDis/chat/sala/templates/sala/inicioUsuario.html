@@ -1,0 +1,37 @@
+{% extends 'principal.html' %}
+{% block title %}
+{% endblock title %}
+{% block content %}
+<h3>Chats</h3>
+        <div>
+            <h5>Hola {{usuario}}</h5>
+            <button>Crear nueva Sala</button>
+            <button>Enviar mensaje nuevo</button>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <label>Contacto o grupo</label>
+                    </td>
+                    <td>
+                        <label>Mensaje</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Juan</label>
+                    </td>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                   <label>Hola amigos</label>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        <div>
+{% endblock content %}

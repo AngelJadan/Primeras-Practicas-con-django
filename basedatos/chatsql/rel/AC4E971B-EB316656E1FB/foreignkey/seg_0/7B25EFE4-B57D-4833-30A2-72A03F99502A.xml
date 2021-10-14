@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B25EFE4-B57D-4833-30A2-72A03F99502A" containerWithKeyObject="3E387A7D-2CEB-9569-B016-1D91EF281989" localFKIndex="D23573B8-EDA6-B648-98E2-612D56D34C26" name="USU_SALAS_SALAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>19EC4EAA-5959-AD58-AB39-AEA389C2DDFE</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<referredTableLongName>SALAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>827AAE5F-6440-E028-8626-403A2BDE6D71</referredTableID>
+<keyObject>D8895025-016E-D241-27DF-B2693AB121E3</keyObject>
+<referredKeyID>D8895025-016E-D241-27DF-B2693AB121E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sal_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

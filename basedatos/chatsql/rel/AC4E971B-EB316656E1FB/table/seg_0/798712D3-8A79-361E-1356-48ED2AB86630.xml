@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="798712D3-8A79-361E-1356-48ED2AB86630" name="Mensajes">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>F185B63E-578D-714D-8556-BB8B332E6E0F</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SALAS_sal_id" id="9C2EF04C-AB1B-3F02-70CC-ABEBC805C784">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>52408285-AC02-CFC9-4F32-11E0499AD9E3</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D45BB18-0761-6017-196C-BDCE626C230C" referredColumn="697B7D0A-2B92-0926-7DCD-47AB253DE8D8"/>
+</associations>
+</Column>
+<Column name="USU_SALAS_usa_id" id="36C569CE-B671-CAF4-175D-7CFE6B7A5DED">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>879DD775-B88F-7A53-1A13-FD39B6F8AD24</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59E71D90-6572-19B5-CA29-37E7B274B901" referredColumn="2D6B0502-68FF-CE26-1CD6-8A368D61C3DC"/>
+</associations>
+</Column>
+<Column name="usa_mensaje" id="243B36EC-40CE-193B-15C7-9E470B580763">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>6C3F78B0-095A-CF8A-13B1-31A779AFCECF</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usa_fecha_hora" id="E11EAA09-729A-7139-E5B3-8102B87D4F8D">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>E94DDD6F-AECF-1746-663E-BC620581A7E7</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7995B704-585B-0E9D-B7E5-B7F71AA1BD0A" name="Mensajes_SALAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>4E501BBD-FD19-F567-BFD8-7119F5A53200</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C2EF04C-AB1B-3F02-70CC-ABEBC805C784"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36901036-830B-82FE-0CAB-6394703891BA" name="Mensajes_USU_SALAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>05557444-A055-FB70-9172-C873039B12FE</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36C569CE-B671-CAF4-175D-7CFE6B7A5DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4AAFA178-8E13-91F0-D7C2-00853FE51222" containerWithKeyObject="3E387A7D-2CEB-9569-B016-1D91EF281989" localFKIndex="A6595CD1-7E87-872F-C0FA-64C781F5D8E6" name="USU_SALAS_USUARIOS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-07-29 19:08:01 UTC</createdTime>
+<generatorID>A0B385E3-3A57-6D5F-E407-C87C2D411393</generatorID>
+<ownerDesignName>chatsql</ownerDesignName>
+<referredTableLongName>USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BC78A4D9-3115-34B0-E3AB-3913C524E379</referredTableID>
+<keyObject>F5715BEB-E744-B45A-53DD-F3F574567736</keyObject>
+<referredKeyID>F5715BEB-E744-B45A-53DD-F3F574567736</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>usu_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
